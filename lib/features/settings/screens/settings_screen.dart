@@ -9,6 +9,7 @@ import 'package:easacc_task/core/utilities/locale.dart';
 import 'package:easacc_task/core/utilities/logic_helpers.dart';
 import 'package:easacc_task/core/utilities/ui_alerts.dart';
 import 'package:easacc_task/core/utilities/validations.dart';
+import 'package:easacc_task/features/authentication/providers/auth_provider.dart';
 import 'package:easacc_task/features/settings/providers/url_holder_provider.dart';
 import 'package:easacc_task/features/settings/providers/url_notifier.dart';
 import 'package:easacc_task/generated/locale_keys.g.dart';

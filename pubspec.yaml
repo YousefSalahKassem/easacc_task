@@ -48,6 +48,14 @@ dependencies:
   # Routing
   auto_route: ^7.8.4
 
+  #firebase
+  firebase_core: ^2.25.5
+  firebase_auth: ^4.17.6
+
+  #social
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^6.1.1
+
 
 
 dev_dependencies:
