@@ -16,3 +16,18 @@ extension FieldValidate on String {
 String? validateRequired(String? value) {
   return value!.trim().isEmpty ? LocaleKeys.errors_required.tr() : null;
 }
+
+String? validateUrl(String? value) {
+  if (value == null || value.isEmpty) {
+    return null; // No validation for empty values
+  }
+
+  const pattern =
+      r'^((?:.|\n)*?)((http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)([-A-Z0-9.]+)(/[-A-Z0-9+&@#/%=~_|!:,.;]*)?(\?[A-Z0-9+&@#/%=~_|!:‌​,.;]*)?)';
+  final regExp = RegExp(pattern);
+  if (!regExp.hasMatch(value)) {
+    return LocaleKeys.errors_try_again.tr();
+  } else {
+    return null;
+  }
+}

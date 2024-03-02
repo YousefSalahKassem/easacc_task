@@ -31,6 +31,8 @@
     "urlHint": "www.example.com",
     "network": "الشبكة",
     "wifi": "واي فاي",
-    "bluetooth": "بلوتوث"
+    "bluetooth": "بلوتوث",
+    "save": "حفظ",
+    "show": "عرض"
   }
 }

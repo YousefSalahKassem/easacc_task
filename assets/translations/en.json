@@ -31,6 +31,8 @@
     "urlHint": "www.example.com",
     "network": "Network",
     "wifi": "Wifi",
-    "bluetooth": "Bluetooth"
+    "bluetooth": "Bluetooth",
+    "save": "Save",
+    "show": "Show"
   }
 }

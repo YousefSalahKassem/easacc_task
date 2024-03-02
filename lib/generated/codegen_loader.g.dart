@@ -47,7 +47,9 @@ class CodegenLoader extends AssetLoader{
     "urlHint": "www.example.com",
     "network": "الشبكة",
     "wifi": "واي فاي",
-    "bluetooth": "بلوتوث"
+    "bluetooth": "بلوتوث",
+    "save": "حفظ",
+    "show": "عرض"
   }
 };
 static const Map<String,dynamic> en = {
@@ -83,7 +85,9 @@ static const Map<String,dynamic> en = {
     "urlHint": "www.example.com",
     "network": "Network",
     "wifi": "Wifi",
-    "bluetooth": "Bluetooth"
+    "bluetooth": "Bluetooth",
+    "save": "Save",
+    "show": "Show"
   }
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ar": ar, "en": en};
