@@ -6,6 +6,7 @@ import 'package:easacc_task/core/routes/router.dart';
 import 'package:easacc_task/core/utilities/enums.dart';
 import 'package:easacc_task/core/utilities/extensions.dart';
 import 'package:easacc_task/core/utilities/locale.dart';
+import 'package:easacc_task/core/utilities/logic_helpers.dart';
 import 'package:easacc_task/core/utilities/ui_alerts.dart';
 import 'package:easacc_task/core/utilities/validations.dart';
 import 'package:easacc_task/features/settings/providers/url_holder_provider.dart';

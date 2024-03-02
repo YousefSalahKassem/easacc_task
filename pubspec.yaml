@@ -32,6 +32,8 @@ dependencies:
   equatable: ^2.0.5
   dartz: ^0.10.1
   webview_flutter: ^4.2.2
+  permission_handler: ^11.3.0
+  connectivity_plus: ^5.0.2
 
   #localization
   easy_localization: ^3.0.0

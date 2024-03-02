@@ -33,6 +33,15 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSAppTransportSecurity</key>
+    <dict>
+       <key>NSAllowsArbitraryLoads</key><true/>
+    </dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>bluetooth</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>bluetooth</string>
+
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

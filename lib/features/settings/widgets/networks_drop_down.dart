@@ -1,6 +1,6 @@
 part of '../screens/settings_screen.dart';
 
-class _NetworksDropDown extends StatelessWidget {
+class _NetworksDropDown extends StatelessWidget with LogicHelpers {
   const _NetworksDropDown();
 
   @override
@@ -11,9 +11,11 @@ class _NetworksDropDown extends StatelessWidget {
     ];
     return DropDownField<String>(
       items: options,
-      onChanged: (value) {
-
+      onChanged: (value) async {
+        print(value);
+        await requestOption(value??'');
       },
+
       label: LocaleKeys.settings_network.tr(),
       hint: LocaleKeys.settings_network.tr(),
     );

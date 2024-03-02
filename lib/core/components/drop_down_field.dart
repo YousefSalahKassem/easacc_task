@@ -1,9 +1,9 @@
 import 'package:dropdown_button2/dropdown_button2.dart';
+import 'package:easacc_task/core/utilities/extensions.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:easacc_task/core/utilities/extensions.dart';
 
 class DropDownField<T> extends ConsumerWidget {
   final List<T>? items;
@@ -33,7 +33,8 @@ class DropDownField<T> extends ConsumerWidget {
         DropdownButtonHideUnderline(
           child: DropdownButtonFormField2<T>(
             iconStyleData: const IconStyleData(
-                icon: Icon(Icons.keyboard_arrow_down_rounded)),
+              icon: Icon(Icons.keyboard_arrow_down_rounded),
+            ),
             isExpanded: true,
             items: customItems ??
                 items?.map((T value) {
