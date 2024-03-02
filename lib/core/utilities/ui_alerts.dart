@@ -16,10 +16,10 @@ mixin UiAlerts {
       builder: (context) {
         return CupertinoAlertDialog(
           title: Text(
-            LocaleKeys.profile_logout.tr(),
+            LocaleKeys.settings_logout.tr(),
           ),
           content: Text(
-            LocaleKeys.profile_logoutMessage.tr(),
+            LocaleKeys.settings_logoutMessage.tr(),
           ),
           actions: [
             TextButton(
@@ -34,7 +34,7 @@ mixin UiAlerts {
             TextButton(
               onPressed: onLogout,
               child: Text(
-                LocaleKeys.profile_logout.tr(),
+                LocaleKeys.settings_logout.tr(),
                 style: context.appTextStyles.bodyMedium.copyWith(
                   color: context.appTheme.black,
                 ),

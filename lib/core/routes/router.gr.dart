@@ -28,9 +28,10 @@ abstract class _$AppRouter extends RootStackRouter {
       );
     },
     WebViewRoute.name: (routeData) {
+      final args = routeData.argsAs<WebViewRouteArgs>();
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const WebViewScreen(),
+        child: WebViewScreen(url: args.url),
       );
     },
   };
@@ -66,14 +67,29 @@ class SettingsRoute extends PageRouteInfo<void> {
 
 /// generated route for
 /// [WebViewScreen]
-class WebViewRoute extends PageRouteInfo<void> {
-  const WebViewRoute({List<PageRouteInfo>? children})
-      : super(
+class WebViewRoute extends PageRouteInfo<WebViewRouteArgs> {
+  WebViewRoute({
+    required String url,
+    List<PageRouteInfo>? children,
+  }) : super(
           WebViewRoute.name,
+          args: WebViewRouteArgs(url: url),
           initialChildren: children,
         );
 
   static const String name = 'WebViewRoute';
 
-  static const PageInfo<void> page = PageInfo<void>(name);
+  static const PageInfo<WebViewRouteArgs> page =
+      PageInfo<WebViewRouteArgs>(name);
+}
+
+class WebViewRouteArgs {
+  const WebViewRouteArgs({required this.url});
+
+  final String url;
+
+  @override
+  String toString() {
+    return 'WebViewRouteArgs{url: $url}';
+  }
 }

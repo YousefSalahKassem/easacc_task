@@ -13,7 +13,7 @@ class LoginScreen extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {
             context.router.push(
-              const LoginRoute(),
+              const SettingsRoute(),
             );
           },
           child: Text("click"),

@@ -17,26 +17,37 @@ class CodegenLoader extends AssetLoader{
   static const Map<String,dynamic> ar = {
   "appName": "Easacc",
   "errors": {
-    "error": "حدث خطا!",
+    "error": "حدث خطأ!",
     "no_user_found_with_this_email": "لم يتم العثور على مستخدم بهذا البريد الإلكتروني",
-    "user_not_found": "لم يتم العثور على المستخدم",
+    "user_not_found": "المستخدم غير موجود",
     "unknown_error": "خطأ غير معروف",
     "required": "مطلوب",
     "email_already_in_use": "البريد الإلكتروني مستخدم بالفعل",
+    "weak_password": "كلمة مرور ضعيفة",
     "try_again": "حاول مرة أخرى"
   },
   "success": {
     "success": "تهانينا!",
-    "login_success": "تم تسجيل الدخول بنجاح !"
+    "login_success": "تم تسجيل الدخول بنجاح!"
+  },
+  "login": {
+    "facebook": "تسجيل الدخول باستخدام فيسبوك",
+    "google": "تسجيل الدخول باستخدام جوجل"
   },
   "common": {
-    "loading": "! برجاء الانتظار",
+    "loading": "جاري التحميل!",
     "cancel": "إلغاء",
     "others": "آخر"
   },
-  "profile": {
+  "settings": {
+    "title": "الإعدادات",
     "logout": "تسجيل الخروج",
-    "logoutMessage": "هل أنت متأكد أنك تريد تسجيل الخروج؟"
+    "logoutMessage": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "url": "رابط",
+    "urlHint": "www.example.com",
+    "network": "الشبكة",
+    "wifi": "واي فاي",
+    "bluetooth": "بلوتوث"
   }
 };
 static const Map<String,dynamic> en = {
@@ -55,14 +66,24 @@ static const Map<String,dynamic> en = {
     "success": "Congratulations !",
     "login_success": "Login successfully !"
   },
+  "login": {
+    "facebook": "Login with Facebook",
+    "google": "Login with Google"
+  },
   "common": {
     "loading": "Loading !",
     "cancel": "Cancel",
     "others": "Other"
   },
-  "profile": {
+  "settings": {
+    "title": "Settings",
     "logout": "Logout",
-    "logoutMessage": "Are you sure you want to logout ?"
+    "logoutMessage": "Are you sure you want to logout ?",
+    "url": "Url",
+    "urlHint": "www.example.com",
+    "network": "Network",
+    "wifi": "Wifi",
+    "bluetooth": "Bluetooth"
   }
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ar": ar, "en": en};
