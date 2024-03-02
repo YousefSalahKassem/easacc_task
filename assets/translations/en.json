@@ -1,0 +1,26 @@
+{
+  "appName": "Easacc",
+  "errors": {
+    "error": "Error occurred !",
+    "no_user_found_with_this_email": "No user found with this email",
+    "user_not_found": "User not found",
+    "unknown_error": "Unknown error",
+    "required": "Required",
+    "email_already_in_use": "Email already in use",
+    "weak_password": "Weak password",
+    "try_again": "Try again"
+  },
+  "success": {
+    "success": "Congratulations !",
+    "login_success": "Login successfully !"
+  },
+  "common": {
+    "loading": "Loading !",
+    "cancel": "Cancel",
+    "others": "Other"
+  },
+  "profile": {
+    "logout": "Logout",
+    "logoutMessage": "Are you sure you want to logout ?"
+  }
+}

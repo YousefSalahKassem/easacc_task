@@ -1,0 +1,25 @@
+{
+  "appName": "Easacc",
+  "errors": {
+    "error": "حدث خطا!",
+    "no_user_found_with_this_email": "لم يتم العثور على مستخدم بهذا البريد الإلكتروني",
+    "user_not_found": "لم يتم العثور على المستخدم",
+    "unknown_error": "خطأ غير معروف",
+    "required": "مطلوب",
+    "email_already_in_use": "البريد الإلكتروني مستخدم بالفعل",
+    "try_again": "حاول مرة أخرى"
+  },
+  "success": {
+    "success": "تهانينا!",
+    "login_success": "تم تسجيل الدخول بنجاح !"
+  },
+  "common": {
+    "loading": "! برجاء الانتظار",
+    "cancel": "إلغاء",
+    "others": "آخر"
+  },
+  "profile": {
+    "logout": "تسجيل الخروج",
+    "logoutMessage": "هل أنت متأكد أنك تريد تسجيل الخروج؟"
+  }
+}
