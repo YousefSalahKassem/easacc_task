@@ -14,45 +14,7 @@ class CodegenLoader extends AssetLoader{
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static const Map<String,dynamic> ar = {
-  "appName": "Easacc",
-  "errors": {
-    "error": "حدث خطأ!",
-    "no_user_found_with_this_email": "لم يتم العثور على مستخدم بهذا البريد الإلكتروني",
-    "user_not_found": "المستخدم غير موجود",
-    "unknown_error": "خطأ غير معروف",
-    "required": "مطلوب",
-    "email_already_in_use": "البريد الإلكتروني مستخدم بالفعل",
-    "weak_password": "كلمة مرور ضعيفة",
-    "try_again": "حاول مرة أخرى"
-  },
-  "success": {
-    "success": "تهانينا!",
-    "login_success": "تم تسجيل الدخول بنجاح!"
-  },
-  "login": {
-    "facebook": "تسجيل الدخول باستخدام فيسبوك",
-    "google": "تسجيل الدخول باستخدام جوجل"
-  },
-  "common": {
-    "loading": "جاري التحميل!",
-    "cancel": "إلغاء",
-    "others": "آخر"
-  },
-  "settings": {
-    "title": "الإعدادات",
-    "logout": "تسجيل الخروج",
-    "logoutMessage": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
-    "url": "رابط",
-    "urlHint": "www.example.com",
-    "network": "الشبكة",
-    "wifi": "واي فاي",
-    "bluetooth": "بلوتوث",
-    "save": "حفظ",
-    "show": "عرض"
-  }
-};
-static const Map<String,dynamic> en = {
+  static const Map<String,dynamic> en = {
   "appName": "Easacc",
   "errors": {
     "error": "Error occurred !",
@@ -87,8 +49,48 @@ static const Map<String,dynamic> en = {
     "wifi": "Wifi",
     "bluetooth": "Bluetooth",
     "save": "Save",
-    "show": "Show"
+    "show": "Show",
+    "language": "English Language"
   }
 };
-static const Map<String, Map<String,dynamic>> mapLocales = {"ar": ar, "en": en};
+static const Map<String,dynamic> ar = {
+  "appName": "Easacc",
+  "errors": {
+    "error": "حدث خطأ!",
+    "no_user_found_with_this_email": "لم يتم العثور على مستخدم بهذا البريد الإلكتروني",
+    "user_not_found": "المستخدم غير موجود",
+    "unknown_error": "خطأ غير معروف",
+    "required": "مطلوب",
+    "email_already_in_use": "البريد الإلكتروني مستخدم بالفعل",
+    "weak_password": "كلمة مرور ضعيفة",
+    "try_again": "حاول مرة أخرى"
+  },
+  "success": {
+    "success": "تهانينا!",
+    "login_success": "تم تسجيل الدخول بنجاح!"
+  },
+  "login": {
+    "facebook": "تسجيل الدخول باستخدام فيسبوك",
+    "google": "تسجيل الدخول باستخدام جوجل"
+  },
+  "common": {
+    "loading": "جاري التحميل!",
+    "cancel": "إلغاء",
+    "others": "آخر"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "logoutMessage": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "url": "رابط",
+    "urlHint": "www.example.com",
+    "network": "الشبكة",
+    "wifi": "واي فاي",
+    "bluetooth": "بلوتوث",
+    "save": "حفظ",
+    "show": "عرض",
+    "language": "اللغة العربية"
+  }
+};
+static const Map<String, Map<String,dynamic>> mapLocales = {"en": en, "ar": ar};
 }

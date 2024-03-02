@@ -50,6 +50,8 @@ class _InputUrlWidget extends ConsumerWidget {
               SizedBox(
                 width: context.widthR(.3),
                 child: ElevatedButton(
+                  key: ValueKey(context.locale),
+
                   onPressed: () {
                     urlController.saveUrl();
                   },
@@ -61,6 +63,7 @@ class _InputUrlWidget extends ConsumerWidget {
               SizedBox(
                 width: context.widthR(.3),
                 child: ElevatedButton(
+
                   onPressed: () {
                     if (urlHolderNotifier.formKey.currentState!.validate()) {
                       context.router.push(

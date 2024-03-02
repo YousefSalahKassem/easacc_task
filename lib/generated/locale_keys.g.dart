@@ -31,6 +31,7 @@ abstract class  LocaleKeys {
   static const settings_bluetooth = 'settings.bluetooth';
   static const settings_save = 'settings.save';
   static const settings_show = 'settings.show';
+  static const settings_language = 'settings.language';
   static const settings = 'settings';
 
 }

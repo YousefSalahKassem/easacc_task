@@ -45,7 +45,6 @@ class DropDownField<T> extends ConsumerWidget {
             decoration: InputDecoration(
               fillColor: context.theme.inputDecorationTheme.fillColor,
               isDense: true,
-              hintText: hint,
               hintStyle: context.appTextStyles.headlineMedium.copyWith(
                 color: context.appTheme.gray3,
               ),
