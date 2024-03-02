@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "383099215252",
+    "project_id": "eassac-d4385",
+    "storage_bucket": "eassac-d4385.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383099215252:android:49fae45d0f56eaa76c0381",
+        "android_client_info": {
+          "package_name": "com.easacc.easacc_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383099215252-st3mtvr4b3g7fegphn5sfjgce5a43k41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4rGafyQkoH4uIGYq0WNBuLA-O6WihXVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383099215252-st3mtvr4b3g7fegphn5sfjgce5a43k41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
